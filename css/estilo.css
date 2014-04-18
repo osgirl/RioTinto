@@ -51,7 +51,31 @@ body {
   width: 45%;
 }
 
-@media (max-width: 600px) {
+.video{
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+.video {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+}
+.video iframe,
+.video object,
+.video embed,
+.video video {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 .contenido img {
   width: 50%;
   margin-top: 5%;
