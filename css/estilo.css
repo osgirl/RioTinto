@@ -1,0 +1,79 @@
+@import url("http://fonts.googleapis.com/css?family=Quattrocento");
+@import url("http://fonts.googleapis.com/css?family=Ruluko");
+body {
+  background-color: #f0382b;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+#imagen {
+  overflow: hidden;
+  z-index: -2;
+  border-top: 7px solid #e3161a;
+}
+#imagen img {
+
+  width: 100%;
+}
+.uno {
+  background-repeat: repeat;
+  height: 100%;
+  overflow: hidden;
+  z-index: 99;
+}
+.contenido {
+  background: #f0382b;
+  border-top: 7px solid #e3161a;
+  height: 250px;
+  width: 100%;
+}
+.contenido img {
+  width: 40%;
+  float: right;
+  margin-top: 5%;
+  margin-right: 8%;
+}
+.contenido h3 {
+  color: #fff;
+  font-family: 'Quattrocento', serif;
+  margin-left: 60%;
+  margin-top: 1%;
+}
+.contenido p {
+  color: #fff;
+  float: left;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 1.5em;
+  margin-left: 4%;
+  margin-top: 6%;
+  text-align: center;
+  width: 45%;
+}
+
+@media (max-width: 600px) {
+.contenido img {
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 25%;
+  float: left;
+}
+.contenido h3 {
+  color: #fff;
+  font-family: 'Quattrocento', serif;
+  font-size: 1em;
+  margin-top: 10%;
+  margin-right: 5%;
+  text-align: center;
+}
+.contenido p {
+  color: #fff;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 1em;
+  margin-left: 6%;
+  margin-top: 6%;
+  text-align: center;
+  
+}
+
+}
