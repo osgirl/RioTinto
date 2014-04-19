@@ -7,27 +7,31 @@
 	<meta property="og:image" itemprop="image" content="img/rio.jpg">
 	
 
-	<title>RioTinto Perú</title>
+	<title>RioTinto Perú Segundo</title>
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="icon" href="img/favi.png" sizes="16x16 32x32" type="image/png">
 
-	<script src="js/code.jquery.com jquery-1.9.0.js"></script>
-	<script src="js/jquery.cycle2.min.js"></script>
-	<script>
-		$("document").ready(function(){
-			$("#imagen").cycle()
-		})
-	</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<link rel="stylesheet" href="css/slideshow.css">
+	
 </head>
 <body>
-	<div class="uno" style="background-image:url(img/linea.png)">
-		<div id="imagen" >
-			<img src="img/01.jpg" alt="">
+	<div class="uno" >
+		<div class="cycle-slideshow" 
+		    data-cycle-fx=scrollHorz
+		    data-cycle-timeout=2000
+		    >
+		    <!-- empty element for pager links -->
+		    <div class="cycle-pager"></div>
+
+		    <img src="img/05.jpg" alt="">
 			<img src="img/04.jpg" alt="">
 			<img src="img/02.jpg" alt="">
-			<img src="img/03.jpg" alt="">
+			<img src="img/06.jpg" alt="">
 		</div>
 	</div>
+	
 
 
 	<div class="contenido">
@@ -38,7 +42,7 @@
 	</div>
 
 	<div class="video">
-				<iframe width="560" height="315" src="//www.youtube.com/embed/zJ3QcIg6oYQ" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="//www.youtube.com/embed/zJ3QcIg6oYQ" frameborder="0" allowfullscreen></iframe> 	
 	</div>
 	
 </body>
